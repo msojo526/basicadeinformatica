@@ -2,11 +2,19 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KXKJP5BRPQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-KXKJP5BRPQ');
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Básica-De-Informática</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
@@ -17,6 +25,7 @@
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <title>Básica-De-Informática</title>
 </head>
 
 <body id="page-top">
@@ -197,18 +206,19 @@
                     <!-- To make this form functional, sign up at-->
                     <!-- https://startbootstrap.com/solution/contact-forms-->
                     <!-- to get an API token!-->
-                    <form id="contactForm" action="https://formsubmit.co/3026b988c27aa07271f1760ca4af76d5" method="POST">
+                    <form id="contactForm" action="https://formsubmit.co/3026b988c27aa07271f1760ca4af76d5"
+                        method="POST">
                         <!-- Name input-->
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="name" type="text" name="name" placeholder="Enter your name..."
-                                data-sb-validations="required" />
+                            <input class="form-control" id="name" type="text" name="name"
+                                placeholder="Enter your name..." data-sb-validations="required" />
                             <label for="name">Nombre Completo</label>
                             <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                         </div>
                         <!-- Email address input-->
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="email" type="email" name="email" placeholder="name@example.com"
-                                data-sb-validations="required,email" />
+                            <input class="form-control" id="email" type="email" name="email"
+                                placeholder="name@example.com" data-sb-validations="required,email" />
                             <label for="email">Email</label>
                             <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                             <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
